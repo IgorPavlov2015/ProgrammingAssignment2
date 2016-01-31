@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## R function is able to cache potentially time-consuming computations. Matrix inverse.
 
-## Write a short comment describing this function
+## Return list of functions that manipulate with data in cache. And pull matrix in cache. 
 
 makeCacheMatrix <- function(x = matrix()) {
         i <- NULL
@@ -16,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Get inverse matrix from cache. If function cann't get inverse matrix from cache then function create inverse matrix and pull in cashe.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
